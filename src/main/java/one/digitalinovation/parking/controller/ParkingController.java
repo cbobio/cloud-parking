@@ -1,7 +1,12 @@
-package one.digitalinivation.parking.controller;
+package one.digitalinovation.parking.controller;
 
 import java.util.List;
 
+import one.digitalinovation.parking.controller.dto.ParkingCreateDTO;
+import one.digitalinovation.parking.controller.dto.ParkingDTO;
+import one.digitalinovation.parking.controller.mapper.ParkingMapper;
+import one.digitalinovation.parking.model.Parking;
+import one.digitalinovation.parking.service.ParkingService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,11 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import one.digitalinivation.parking.controller.dto.ParkingCreateDTO;
-import one.digitalinivation.parking.controller.dto.ParkingDTO;
-import one.digitalinivation.parking.controller.mapper.ParkingMapper;
-import one.digitalinivation.parking.model.Parking;
-import one.digitalinivation.parking.service.ParkingService;
 
 
 @RestController

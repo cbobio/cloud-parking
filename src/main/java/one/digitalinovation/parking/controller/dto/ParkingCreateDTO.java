@@ -1,4 +1,4 @@
-package one.digitalinivation.parking.controller.dto;
+package one.digitalinovation.parking.controller.dto;
 
 public class ParkingCreateDTO {
 

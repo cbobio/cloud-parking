@@ -1,8 +1,8 @@
-package one.digitalinivation.parking.service;
+package one.digitalinovation.parking.service;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-import one.digitalinivation.parking.model.Parking;
+import one.digitalinovation.parking.model.Parking;
 
 public class ParkingCheckOut {
 

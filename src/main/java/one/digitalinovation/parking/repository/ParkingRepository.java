@@ -1,7 +1,7 @@
-package one.digitalinivation.parking.repository;
+package one.digitalinovation.parking.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import one.digitalinivation.parking.model.Parking;
+import one.digitalinovation.parking.model.Parking;
 
 
 

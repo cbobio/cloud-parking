@@ -1,4 +1,4 @@
-package one.digitalinivation.parking.service;
+package one.digitalinovation.parking.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import one.digitalinivation.parking.exception.ParkingNotFoundException;
-import one.digitalinivation.parking.model.Parking;
-import one.digitalinivation.parking.repository.ParkingRepository;
+import one.digitalinovation.parking.exception.ParkingNotFoundException;
+import one.digitalinovation.parking.model.Parking;
+import one.digitalinovation.parking.repository.ParkingRepository;
 
 @Service
 public class ParkingService {

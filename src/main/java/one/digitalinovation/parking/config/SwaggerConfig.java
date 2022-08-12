@@ -1,4 +1,4 @@
-package one.digitalinivation.parking.config;
+package one.digitalinovation.parking.config;
 
 import java.util.Arrays;
 
@@ -25,7 +25,7 @@ public class SwaggerConfig {
     public Docket getDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("one.digitalinnovation.parking"))
+                .apis(RequestHandlerSelectors.basePackage("one.digitalinovation.parking"))
                 .build()
                 .apiInfo(metaData())
                 .securityContexts(Arrays.asList(getSecurityContext()))

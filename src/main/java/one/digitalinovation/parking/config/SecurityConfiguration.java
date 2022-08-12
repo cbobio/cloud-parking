@@ -1,4 +1,4 @@
-package one.digitalinivation.parking.config;
+package one.digitalinovation.parking.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
